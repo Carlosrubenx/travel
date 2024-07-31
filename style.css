@@ -35,6 +35,23 @@ h1, h2, h3 {
   color: var(--text-primary);
 }
 
+.list-title {
+  font-weight: bold;
+  color: var(--text-secondary);
+}
+
+ul li::marker {
+  color: var(--text-secondary);
+}
+
+li {
+  font-weight: bold;
+}
+
+.card-travel + .card-travel {
+  margin-top: 4.8rem;
+}
+
 body {
   font-size: 1.6rem;
   background-color: var(--background-default);
@@ -59,6 +76,7 @@ body {
   width: 100%;
   height: 1px;
   background-color: var(--border-primary);
+  margin: 4rem 0;
 }
 
 
@@ -81,10 +99,60 @@ body {
 
 /* Call to Action */
 .cta {
-  margin: 6.4rem 0;
+  margin: 2.4rem 0 6.4rem 0;
 }
 
 .cta .h2-cta {
   margin-bottom: .8rem;
   font-size: 3.2rem;
+}
+
+/* Card Travel */
+
+.card-travel img {
+  width: 100%;
+  border-radius: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+ .card-travel-info h3 {
+  font-size: 2.8rem;
+}
+
+.card-travel-info p {
+  margin-bottom: 3.4rem;
+}
+
+.card-travel-info ul {
+  margin-left: 2.6rem;
+}
+
+.card-travel-info ul li {
+  color: var(--accent-blue);
+}
+.card-travel-info .iten1 {
+  color: var(--accent-purple);
+}
+
+.card-travel-info .iten2 {
+  color: var(--accent-pink);
+}
+
+.card-travel-info .iten3 {
+  color: var(--accent-orange);
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+footer p {
+  margin-bottom: 6.5rem;
+}
+
+footer img {
+  vertical-align: middle;
 }
