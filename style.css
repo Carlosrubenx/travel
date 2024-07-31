@@ -1,3 +1,4 @@
+/* Configurações Gerais */
 * {
   margin: 0;
   padding: 0;
@@ -42,8 +43,9 @@ body {
 .container {
   width: 112rem;
   margin: 8.8rem auto 0;
-  border: 1px solid black;
 }
+
+/* Cabeçalho */
 .head {
   margin-bottom: 4rem;
 }
@@ -52,6 +54,15 @@ body {
   font-size: 3.6rem;
 }
 
+/* Divisor */
+.border {
+  width: 100%;
+  height: 1px;
+  background-color: var(--border-primary);
+}
+
+
+/* Primeira Imagem */
 .busan-img {
   margin-bottom: 4rem;
 }
@@ -66,4 +77,14 @@ body {
   font-style: italic;
   font-size: 1.6rem;
   text-align: center;
+}
+
+/* Call to Action */
+.cta {
+  margin: 6.4rem 0;
+}
+
+.cta .h2-cta {
+  margin-bottom: .8rem;
+  font-size: 3.2rem;
 }
