@@ -57,6 +57,7 @@ body {
   background-color: var(--background-default);
 }
 
+/* Container */
 .container {
   width: 112rem;
   margin: 8.8rem auto 0;
@@ -72,7 +73,7 @@ body {
 }
 
 /* Divisor */
-.border {
+.divider {
   width: 100%;
   height: 1px;
   background-color: var(--border-primary);
